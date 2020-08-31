@@ -3,35 +3,35 @@
 // ========
 // data that we want to visualize
 // =========
-var outcomes = [
-  {id: '1', type: 'outcome', name: 'Become captain of a starship'},
-  {id: '2', type: 'outcome', name: 'Do 50 pullups with a 20lb backpack'},
-  {id: '3', type: 'outcome', name: 'Demonstrate leadership potential in crises situations'},
-  {id: '4', type: 'outcome', name: 'Design engineering systems'},
-  {id: '5', type: 'outcome', name: 'Collaborate with others in a team'},
-  {id: '6', type: 'outcome', name: 'Derive the physics governing electromagnetic systems'},
-  {id: '7', type: 'outcome', name: 'Apply Faraday\'s law'},
+var APAC_Acred = [
+  {id: '1', type: 'APAC_Acred', name: 'Become captain of a starship'},
+  {id: '2', type: 'APAC_Acred', name: 'Do 50 pullups with a 20lb backpack'},
+  {id: '3', type: 'APAC_Acred', name: 'Demonstrate leadership potential in crises situations'},
+  {id: '4', type: 'APAC_Acred', name: 'Design engineering systems'},
+  {id: '5', type: 'APAC_Acred', name: 'Collaborate with others in a team'},
+  {id: '6', type: 'APAC_Acred', name: 'Derive the physics governing electromagnetic systems'},
+  {id: '7', type: 'APAC_Acred', name: 'Apply Faraday\'s law'},
 
 ];
 
-var modules = [
-  {id: 'm1', type: 'module', name: 'Aeronautics'},
-  {id: 'm10', type: 'module', name: 'Computer Science'},
-  {id: 'm11', type: 'module', name: 'Astronomy'},
-  {id: 'm12', type: 'module', name: 'Exobiology'},
+var Assessment = [
+  {id: 'm1', type: 'assessment', name: 'Aeronautics'},
+  {id: 'm10', type: 'assessment', name: 'Computer Science'},
+  {id: 'm11', type: 'assessment', name: 'Astronomy'},
+  {id: 'm12', type: 'assessment', name: 'Exobiology'},
 
-  {id: 'm2', type: 'module', name: 'Leadership'},
-  {id: 'm3', type: 'module', name: 'Fitness'}
+  {id: 'm2', type: 'assessment', name: 'Leadership'},
+  {id: 'm3', type: 'assessment', name: 'Fitness'}
 ];
 
-var tracks = [
-  {id: 't1', type: 'track', name: 'Command'},
-  {id: 't2', type: 'track', name: 'Science'},
-  {id: 't3', type: 'track', name: 'Engineering'},
+var Course = [
+  {id: 't1', type: 'course', name: 'Command'},
+  {id: 't2', type: 'course', name: 'Science'},
+  {id: 't3', type: 'course', name: 'Engineering'},
 ];
 
-var institutions = [
-  {id: 'Starfleet-Academy', type: 'institution', name: 'Starfleet Academy'}
+var Program = [
+  {id: 'Starfleet-Academy', type: 'program', name: 'Starfleet Academy'}
 ];
 
 var relationships = [
